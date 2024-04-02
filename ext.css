@@ -1,0 +1,117 @@
+
+ .inline-block {
+     padding-left: 20px;
+     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+     transition-duration: 120ms;
+       transform: rotate();
+         color:  #ffff;
+ }
+  
+ 
+ .w-full{
+  
+     width: 500px;
+
+ }
+
+ .text-center{
+    font-size: 20px;
+    color: var(--main-color);
+    text-transform: capitalize;
+
+ }
+
+
+ @keyframes floating-left {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes floating-right {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+/* Apply animation to all images */
+
+
+/* Apply animation to all images */
+.text-center {
+    animation: floating-right 2s ease-in-out infinite;
+    color: var(--main-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color:white;
+    margin: 0 0 20px;
+    font-size:30px;
+    text-align:center;
+    align-items: center;
+}
+
+.w-full{
+    animation: floating-left 2s ease-in-out infinite;
+  
+}
+
+.left-img {
+    animation: floating-left 2s ease-in-out infinite;
+}
+
+.right-img {
+    animation: floating-right 2s ease-in-out infinite;
+}
+
+.container{
+
+    display: flex;
+    background-color: orange;
+    justify-content: space-evenly;
+   width: 620px;
+   height:40px;
+   border-radius:4px;
+   background-color: #f3f3f3;
+     width: 50px;
+     text-align: center;
+     border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+     border:none;
+}
+
+.search-icon{
+    width: 45px;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: rgba(255, 191, 0, 0.993);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+    padding-left: 40px;  
+   }
+
+   .container:hover{
+   
+    border: 2px solid orange ;
+  
+  }
+
+
+
+
+  
